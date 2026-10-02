@@ -174,10 +174,10 @@ Após a extração, os dados são armazenados em uma planilha utilizando `openpy
 
 A planilha possui atualmente as seguintes colunas:
 
-| Arquivo PDF   | Nome da Empresa   |   | Valor Total dos Produtos | Valor Total da Nota |
-| ------------- | ----------------- | - | ------------------------ | ------------------- |
-| pedido_01.pdf | Empresa Exemplo   |   | 1.500,00                 | 1.620,00            |
-| pedido_02.pdf | Empresa Exemplo 2 |   | 850,00                   | 920,00              |
+| Arquivo PDF   | Nome da Empresa   | Valor Total dos Produtos | Valor Total da Nota |
+| ------------- | ----------------- | ------------------------ | ------------------- |
+| pedido_01.pdf | Empresa Exemplo   | 1.500,00                 | 1.620,00            |
+| pedido_02.pdf | Empresa Exemplo 2 | 850,00                   | 920,00              |
 
 Caso a planilha já exista, o programa **não cria uma nova planilha**. Ele carrega o arquivo existente e adiciona uma nova linha com os dados do PDF processado.
 
