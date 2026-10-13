@@ -181,6 +181,6 @@ def processar_pdfs(pasta_ou_arquivo, caminho_excel="resultado_pedidos.xlsx"):
 if __name__ == "__main__":
 
     processar_pdfs(
-        pasta_ou_arquivo= r"C:\\Users\\COBRANÇA\\Desktop\\Giliarde\\automacao_pdf_python",   # <-- Coloque aqui o caminho da pasta ou do PDF
+        pasta_ou_arquivo= r"C:\\Users\\COBRANÇA\\Desktop\\Giliarde\\python_projetos\\automacao_de_processamento_de_pedidos\\pdfs",   # <-- Coloque aqui o caminho da pasta ou do PDF
         caminho_excel="resultado_pedidos.xlsx"          # <-- Nome da planilha que será gerada
     )
